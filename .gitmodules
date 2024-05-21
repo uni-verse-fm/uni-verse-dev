@@ -1,0 +1,6 @@
+[submodule "uni-verse-api"]
+	path = uni-verse-api
+	url = git@github.com:uni-verse-fm/uni-verse-api.git
+[submodule "uni-verse-frontend"]
+	path = uni-verse-frontend
+	url = git@github.com:uni-verse-fm/uni-verse-frontend.git
