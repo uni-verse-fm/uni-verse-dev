@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile.dev
     #     command: npm run start:dev
     ports:
-      - 3000:3000
+      - 3000:3005
       - 3001:9229
     depends_on:
       - mongodb
@@ -20,22 +20,22 @@ services:
 
   #  frontend:
   #  build:
-  #  context: .
-  #  dockerfile: ./uni-verse-frontend/Dockerfile.dev
-  #command: npm run dev
+  #    context: ./uni-verse-frontend/
+  #    dockerfile: ./Dockerfile.dev
+  #  command: npm run dev
   #ports:
   #  - 3005:3005
   #depends_on:
-  #  - mongodb
-  # - minio
+  #   - mongodb
+  #  - minio
   # - rabbitmq
   # - api
   #volumes:
-  #  - ./uni-verse-frontend:/usr/src/app
+  #   - ./uni-verse-frontend:/usr/src/app
   # - /usr/src/app/node_modules
   # - ./froentend-logs:/usr/src/app/logs
   #restart: unless-stopped
-  #env_file:
+  # env_file:
   #  - docker.env
 
   mongodb:
@@ -55,7 +55,7 @@ services:
     depends_on:
       - mongodb
     ports:
-      - "8086:8081"
+      - "8086:3005"
     restart: always
     env_file:
       - docker.env
