@@ -14,4 +14,4 @@ docker compose up -d
 
 You can then modify the code in `uni-verse-frontend` or `uni-verse-api` and the containers will pick it up.
 
-Learn more in [the wiki](https://uni-verse-fm.github.io) !
+Learn more in [the wiki](https://uni-verse-fm.github.io/docs/contribute) !
