@@ -4,3 +4,9 @@
 [submodule "uni-verse-frontend"]
 	path = uni-verse-frontend
 	url = git@github.com:uni-verse-fm/uni-verse-frontend.git
+[submodule "uni-verse-app"]
+	path = uni-verse-app
+	url = git@github.com:uni-verse-fm/uni-verse-app.git
+[submodule "uni-verse-worker"]
+	path = uni-verse-worker
+	url = git@github.com:uni-verse-fm/uni-verse-worker.git
